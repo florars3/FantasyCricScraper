@@ -1,10 +1,12 @@
 FantasyCricScraper
-It scrapes the scorecard information from the cricinfo.com/<matchid>.
+It scrapes the scorecard information from the cricinfo.com/matchid.
+Example:
+http://www.espncricinfo.com/indian-premier-league-2016/engine/match/980919.html
 
 
 [![Build Status][travis-image]][travis-url]
 
-FantasyCricScrapes scrapes information from the cricinfo website and then
+FantasyCricScraper scrapes information from the cricinfo website and then
 displays into a list which looks like the following:
 
 Bowler list: [{'PlayerName': 'SandeepSharma', 'Points': 72}, {'PlayerName': 'KJAbbott', 'Points': 33}, {'PlayerName': 'ARPatel', 'Points': 11}, {'PlayerName': 'PSahu', 'Points': 16}, {'PlayerName': 'MMSharma', 'Points': 98}, {'PlayerName': 'GJMaxwell', 'Points': 18}, {'PlayerName': 'ISharma', 'Points': 15}, {'PlayerName': 'AnkitSharma', 'Points': 38}, {'PlayerName': 'RAshwin', 'Points': 18}, {'PlayerName': 'MAshwin', 'Points': 90}, {'PlayerName': 'IKPathan', 'Points': 13}, {'PlayerName': 'NLTCPerera', 'Points': -8}]
@@ -20,11 +22,8 @@ OS X & Linux:
 
  2) Download Selenium and add the libraries to your project
  
- 3) Edit Happy.java to have the path to the chromedriver
+ 3) Edit fantasyCricScraper.py to have the path to the chromedriver
 
- 4) Add your facebook email and password
-
- 5) Set up a cron job to automate your application daily
 ```
 
 ## Meta
@@ -33,7 +32,7 @@ Ripudaman Flora – flora_ripudaman@hotmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/florars3/FantasyCricScraper](https://github.com/florars3/)
+[https://github.com/florars3/FantasyCricScraper](https://github.com/florars3/FantasyCricScraper)
 
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
