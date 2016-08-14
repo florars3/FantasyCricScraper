@@ -7,7 +7,7 @@ http://www.espncricinfo.com/indian-premier-league-2016/engine/match/980919.html
 [![Build Status][travis-image]][travis-url]
 
 FantasyCricScraper scrapes information from the cricinfo website and then
-displays into a list which looks like the following:
+displays into a dictionary which looks like the following:
 
 Bowler list: [{'PlayerName': 'SandeepSharma', 'Points': 72}, {'PlayerName': 'KJAbbott', 'Points': 33}, {'PlayerName': 'ARPatel', 'Points': 11}, {'PlayerName': 'PSahu', 'Points': 16}, {'PlayerName': 'MMSharma', 'Points': 98}, {'PlayerName': 'GJMaxwell', 'Points': 18}, {'PlayerName': 'ISharma', 'Points': 15}, {'PlayerName': 'AnkitSharma', 'Points': 38}, {'PlayerName': 'RAshwin', 'Points': 18}, {'PlayerName': 'MAshwin', 'Points': 90}, {'PlayerName': 'IKPathan', 'Points': 13}, {'PlayerName': 'NLTCPerera', 'Points': -8}]
 
