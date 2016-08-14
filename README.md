@@ -1,63 +1,39 @@
-# Product Name
-> Short blurb about what your product does.
+FantasyCricScraper
+It scrapes the scorecard information from the cricinfo.com/<matchid>.
 
-[![NPM Version][npm-image]][npm-url]
+
 [![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+FantasyCricScrapes scrapes information from the cricinfo website and then
+displays into a list which looks like the following:
 
-![](header.png)
+Bowler list: [{'PlayerName': 'SandeepSharma', 'Points': 72}, {'PlayerName': 'KJAbbott', 'Points': 33}, {'PlayerName': 'ARPatel', 'Points': 11}, {'PlayerName': 'PSahu', 'Points': 16}, {'PlayerName': 'MMSharma', 'Points': 98}, {'PlayerName': 'GJMaxwell', 'Points': 18}, {'PlayerName': 'ISharma', 'Points': 15}, {'PlayerName': 'AnkitSharma', 'Points': 38}, {'PlayerName': 'RAshwin', 'Points': 18}, {'PlayerName': 'MAshwin', 'Points': 90}, {'PlayerName': 'IKPathan', 'Points': 13}, {'PlayerName': 'NLTCPerera', 'Points': -8}]
+
+Batsman Points: [{'PlayerName': 'AM Rahane', 'Points': 9.0}, {'PlayerName': 'F du Plessis', 'Points': 92.0}, {'PlayerName': 'KP Pietersen', 'Points': 20.0}, {'PlayerName': 'NLTC Perera', 'Points': 8.0}, {'PlayerName': 'SPD Smith', 'Points': 53.0}, {'PlayerName': 'MS Dhoni', 'Points': 1.0}, {'PlayerName': 'IK Pathan', 'Points': 2.0}, {'PlayerName': 'R Ashwin', 'Points': 1.0}, {'PlayerName': 'M Vijay', 'Points': 82.0}, {'PlayerName': 'M Vohra', 'Points': 81.0}, {'PlayerName': 'SE Marsh', 'Points': 4.0}, {'PlayerName': 'DA Miller', 'Points': 7.0}, {'PlayerName': 'GJ Maxwell', 'Points': 61.0}, {'PlayerName': 'WP Saha', 'Points': 4.0}]
 
 ## Installation
 
 OS X & Linux:
 
 ```sh
-npm install my-crazy-module --save
+ 1) Download chromedriver.exe
+
+ 2) Download Selenium and add the libraries to your project
+ 
+ 3) Edit Happy.java to have the path to the chromedriver
+
+ 4) Add your facebook email and password
+
+ 5) Set up a cron job to automate your application daily
 ```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
-## Release History
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Ripudaman Flora – flora_ripudaman@hotmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/florars3/FantasyCricScraper](https://github.com/florars3/)
 
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
